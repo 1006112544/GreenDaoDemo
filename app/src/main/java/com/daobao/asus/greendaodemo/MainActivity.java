@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.daobao.asus.greendaodemo.greendao.dayStep;
 import com.daobao.asus.greendaodemo.greendao.dayStepDao;
 import java.util.Date;
 import java.util.List;
@@ -52,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 删除
+     * 删
      * @param i 删除数据的id
      */
     public void delete(long i)
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     *改
      * @param i
      * @param date
      */

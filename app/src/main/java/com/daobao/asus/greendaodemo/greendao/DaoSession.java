@@ -1,5 +1,7 @@
 package com.daobao.asus.greendaodemo.greendao;
 
+import com.daobao.asus.greendaodemo.dayStep;
+
 import java.util.Map;
 
 import org.greenrobot.greendao.AbstractDao;

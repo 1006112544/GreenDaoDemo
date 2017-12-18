@@ -1,4 +1,4 @@
-package com.daobao.asus.greendaodemo.greendao;
+package com.daobao.asus.greendaodemo;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
