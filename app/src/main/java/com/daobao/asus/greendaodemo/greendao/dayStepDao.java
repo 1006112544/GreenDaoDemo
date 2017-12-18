@@ -3,8 +3,6 @@ package com.daobao.asus.greendaodemo.greendao;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;
 
-import com.daobao.asus.greendaodemo.dayStep;
-
 import org.greenrobot.greendao.AbstractDao;
 import org.greenrobot.greendao.Property;
 import org.greenrobot.greendao.internal.DaoConfig;

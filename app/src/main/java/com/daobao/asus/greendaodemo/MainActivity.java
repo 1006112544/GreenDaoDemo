@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.daobao.asus.greendaodemo.greendao.dayStep;
 import com.daobao.asus.greendaodemo.greendao.dayStepDao;
 import java.util.Date;
 import java.util.List;
@@ -26,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void insert()
     {
         String date = new Date().toString();
-        long i = dao.queryBuilder().listLazy().size()+1;
-        mDayStep = new dayStep((long) i,date,0);
+        mDayStep = new dayStep(null,date,0);
         dao.insert(mDayStep);
     }
 
