@@ -2,6 +2,7 @@ package com.daobao.asus.greendaodemo;
 
 import android.app.Application;
 import android.database.sqlite.SQLiteDatabase;
+
 import com.daobao.asus.greendaodemo.greendao.DaoMaster;
 import com.daobao.asus.greendaodemo.greendao.DaoSession;
 
