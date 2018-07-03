@@ -52,6 +52,16 @@ public class DataBaseTool {
     }
 
     /**
+     * 查询指定用户
+     */
+    public static List<UserInfo> SearchUserInfo(int id)
+    {
+        //惰性加载
+        List<UserInfo> list =  mUserInfoDao.queryBuilder().where(UserInfoDao.Properties.Id.eq(id)).list();
+        return list;
+    }
+
+    /**
      * 删除某条用户信息
      * @param i 删除数据的id
      */
